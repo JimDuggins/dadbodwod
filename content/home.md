@@ -2,7 +2,7 @@
 <p class="lede">Move fast, lift heavy, breathe hard. About 45 minutes, Monday to Saturday, two hard days.</p>
 
 ## Equipment
-Barbell and plates, hex bar, kettlebells (a light, a medium and a couple of heavy ones), flat bench, pull-up/dip bar, rings, bands, ab wheel, med balls and slam balls, air bike, a low box. Turf or a track for Saturday sprints. No rack needed.
+Barbell and plates, hex bar, kettlebells (a light, a medium and a couple of heavy ones), flat bench, pull-up/dip bar, rings, bands, ab wheel, med balls and slam balls, air bike, a low box. A field, turf, or track is only for the optional Saturday running block, and only in daylight with dry, secure footing. No rack needed.
 
 **Missing something?**
 - **No hex bar:** barbell deadlift from blocks, or a heavy kettlebell deadlift/goblet squat.
@@ -20,7 +20,7 @@ Barbell and plates, hex bar, kettlebells (a light, a medium and a couple of heav
 | Wed | Moderate | **Upper** (overhead press, row) |
 | Thu | <span class="tag">HARD</span> | Light play + bike 4x4 |
 | Fri | Moderate | **Upper** (dip, pull-up) |
-| Sat | <span class="tag">HARD</span> | Sprints + short **Lower** |
+| Sat | <span class="tag">HARD</span> | Bike sprints + short **Lower** |
 | Sun | Off | |
 
 **Every session:** 3-minute warm-up (90/90 breathing, dead bug, bird dog), then fast, then heavy, then accessory. Slow belly breaths between heavy sets.
@@ -59,9 +59,10 @@ Default pick in **bold**. Keep a pick 3–4 weeks; swap only if it stalls or hur
 4. **Arms/shoulders, 2 picks, 2–3 x 10–15:** same list as Wednesday.
 5. **Core:** **kettlebell side bend 2 x 10/side, start light**, or landmine rotation. Hanging leg raise either day: tuck the pelvis first, lead with the knees, no swinging.
 
-### Sat: Sprints + short Lower <span class="tag">HARD</span>
-1. **Sprints (this is the play block):** fly sprints on turf or a track, 4–5 reps, 150 m of fast running max, full rest. Start smooth at 85–90% (about 20 m build + 10 m fly) and build over weeks toward 95%. Add 4–6 deceleration or 5-10-5 shuttle reps on turf.
-   - **Winter fallback:** hill sprints if dry; otherwise bike sprints, 10 x 6 s all-out with 54 s easy.
+### Sat: Bike sprints + short Lower <span class="tag">HARD</span>
+1. **Bike sprints / bike power (this is the fast block):** air bike, or any bike, 10 x 6 s all-out with 54 s easy. Rolling start, seated, smooth acceleration.
+   - **Optional running block, instead of the bike, never both:** only on a Saturday with daylight and a field, turf, or track, and only with dry, secure footing. If that is not possible, do the bike. No makeup day.
+   - **First running exposure:** a graded running warm-up with build-ups around 60%, then about 4 x 40 m relaxed strides around 70%, full walk-back rest. Progress only after well-tolerated sessions.
    - **Stop** when speed drops, form breaks down, or a hamstring feels off.
 2. **Short lift, ~20 min:** alternate weeks between **hex bar, low handles, 3 x 3–5 at RIR 2** and **heavy rear-foot split squat 3 x 5–6**. Then **suitcase carry 2–3 x 30–40 m/side.**
    - **Back cranky?** Kettlebell swing 3 x 10 instead of the hex bar.
@@ -82,7 +83,7 @@ Push ~10–12, pull ~10–12 (counting Monday pump), squat/single leg ~10, hinge
 ## Why it looks like this
 - About 10+ hard sets per muscle per week drives size (Schoenfeld 2017; Pelland 2024).
 - Mixing cardio and lifting costs little size or strength (Schumann 2022).
-- 4x4 intervals for VO2max (Helgerud 2007). Short bike sprints as a winter fallback (Umeå HIT study, 2023).
+- 4x4 intervals for VO2max (Helgerud 2007). Short bike sprints for the Saturday fast block (Umeå HIT study, 2023).
 - Regular near-top-speed sprinting may protect hamstrings (Malone; Edouard).
 - Varied, full-intent jumps and throws for athletic carryover (coach opinion).
 - For back pain, exercise helps and no single type wins (Hayden 2021, Cochrane).
