@@ -2,27 +2,70 @@
 import html, re
 
 SITE = "Dad Bod WOD"
+SITE_URL = "https://dadbodwod.org"
+TAGLINE = "Move fast, lift heavy, breathe hard. About 45 min, Mon–Sat, 2 hard days."
+HOME_DESC = ("Home plan (garage). Move fast, lift heavy, breathe hard. "
+             "About 45 minutes, Monday to Saturday, two hard days.")
+GYM_DESC = ("Gym plan. Same week, same templates, gym equipment. "
+            "About 45 minutes, Monday to Saturday, two hard days.")
+ARCHIVE_DESC = "Past sessions, posted Monday–Saturday. Each day has a Home version and a Gym version."
+ARCHIVE_NOTE = "Sessions are posted Monday–Saturday, so a Sunday gap is a rest day."
+NOT_FOUND_DESC = "That page isn't on Dad Bod WOD."
+FEED_DESC = "Daily Home and Gym sessions, posted Monday–Saturday."
+OG_ALT = "Dad Bod WOD. Move fast, lift heavy, breathe hard."
 DISCLAIMER = ("General programming for healthy adults, not medical advice. If you have an injury, "
               "a medical condition, or pain, check with a qualified professional before you start. "
               "Train at your own risk and scale anything that hurts.")
 NAV = [("index.html", "Start"), ("today.html", "Today"), ("home.html", "Home plan"),
        ("gym.html", "Gym plan"), ("days/index.html", "Archive")]
 
+# Inline HTML the plans use on purpose. Anything else stays escaped.
+_TAG_SPAN = re.compile(r'&lt;span class="tag"&gt;(.*?)&lt;/span&gt;')
 
-def page(title, body_html, current="", depth=0, description=""):
-    pre = "../" * depth
+
+def canonical(path):
+    if path in ("", "index.html"):
+        return SITE_URL + "/"
+    return f"{SITE_URL}/{path}"
+
+
+def page(title, body_html, current="", depth=0, description="", path="", abs_root=False):
+    pre = "/" if abs_root else "../" * depth
     cur = ' aria-current="page"'
     links = "".join(f'<a href="{pre}{href}"{cur if href == current else ""}>{label}</a>'
                     for href, label in NAV)
-    t = SITE if title == SITE else f"{title} | {SITE}"
-    desc = html.escape(description or "Move fast, lift heavy, breathe hard. About 45 min, Mon-Sat, 2 hard days.")
+    full = SITE if title == SITE else f"{title} | {SITE}"
+    esc_title = html.escape(full)
+    desc = html.escape(description or TAGLINE)
+    canon = canonical(path or current)
+    image = f"{SITE_URL}/og.png"
+    alt = html.escape(OG_ALT)
     return f"""<!doctype html>
 <html lang="en">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>{html.escape(t)}</title>
+<title>{esc_title}</title>
 <meta name="description" content="{desc}">
+<link rel="canonical" href="{canon}">
+<meta property="og:site_name" content="{SITE}">
+<meta property="og:type" content="website">
+<meta property="og:title" content="{esc_title}">
+<meta property="og:description" content="{desc}">
+<meta property="og:url" content="{canon}">
+<meta property="og:image" content="{image}">
+<meta property="og:image:type" content="image/png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="{alt}">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="{esc_title}">
+<meta name="twitter:description" content="{desc}">
+<meta name="twitter:image" content="{image}">
+<meta name="twitter:image:alt" content="{alt}">
+<link rel="icon" href="{pre}favicon.ico" sizes="any">
+<link rel="icon" href="{pre}favicon.svg" type="image/svg+xml">
+<link rel="alternate" type="application/rss+xml" title="{SITE}" href="{pre}feed.xml">
 <link rel="stylesheet" href="{pre}style.css">
 </head>
 <body>
@@ -33,7 +76,10 @@ def page(title, body_html, current="", depth=0, description=""):
 <main>
 {body_html}
 </main>
-<footer class="disclaimer">{DISCLAIMER}</footer>
+<footer>
+<p class="subscribe"><a href="{pre}feed.xml">RSS</a></p>
+<p class="disclaimer">{DISCLAIMER}</p>
+</footer>
 </body>
 </html>
 """
@@ -45,11 +91,16 @@ def _inline(s):
     s = re.sub(r"\*\*([^*]+)\*\*", r"<strong>\1</strong>", s)
     s = re.sub(r"(?<![\w*])\*([^*]+)\*(?![\w*])", r"<em>\1</em>", s)
     s = re.sub(r"\[([^\]]+)\]\(([^)\s]+)\)", r'<a href="\2">\1</a>', s)
+    s = _TAG_SPAN.sub(lambda m: f'<span class="tag">{m.group(1)}</span>', s)
     return s
 
 
 def md(text):
-    """Small Markdown subset: headings, ul/ol (one level), tables, paragraphs, raw HTML lines."""
+    """Small Markdown subset: headings, ul/ol (one level), tables, paragraphs, raw HTML lines.
+
+    A line that starts with '<' is copied through as HTML. Inside headings, paragraphs,
+    and table cells, only <span class="tag">...</span> is kept; other markup is escaped.
+    """
     out, para, lst, tbl = [], [], None, []
 
     def flush():

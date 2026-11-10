@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<channel>
+<title>Dad Bod WOD</title>
+<link>https://dadbodwod.org/</link>
+<atom:link href="https://dadbodwod.org/feed.xml" rel="self" type="application/rss+xml"/>
+<description>Daily Home and Gym sessions, posted Monday–Saturday.</description>
+<language>en</language>
+<lastBuildDate>Tue, 10 Nov 2026 17:13:43 GMT</lastBuildDate>
+<item>
+<title>Tuesday, Nov 10, 2026: Lower</title>
+<link>https://dadbodwod.org/days/2026-11-10.html</link>
+<guid isPermaLink="true">https://dadbodwod.org/days/2026-11-10.html</guid>
+<pubDate>Tue, 10 Nov 2026 12:00:00 GMT</pubDate>
+<description>Tuesday, November 10, 2026: Lower. Week 2, about 85% volume. Home and Gym sessions.</description>
+</item>
+<item>
+<title>Monday, Nov 9, 2026: Easy</title>
+<link>https://dadbodwod.org/days/2026-11-09.html</link>
+<guid isPermaLink="true">https://dadbodwod.org/days/2026-11-09.html</guid>
+<pubDate>Mon, 09 Nov 2026 12:00:00 GMT</pubDate>
+<description>Monday, November 9, 2026: Easy. Week 2, about 85% volume. Home and Gym sessions.</description>
+</item>
+<item>
+<title>Saturday, Nov 7, 2026: HARD Bike Power + Lower</title>
+<link>https://dadbodwod.org/days/2026-11-07.html</link>
+<guid isPermaLink="true">https://dadbodwod.org/days/2026-11-07.html</guid>
+<pubDate>Sat, 07 Nov 2026 12:00:00 GMT</pubDate>
+<description>Saturday, November 7, 2026: HARD Bike Power + Lower. Week 1, about 85% volume. Home and Gym sessions.</description>
+</item>
+<item>
+<title>Friday, Nov 6, 2026: Upper</title>
+<link>https://dadbodwod.org/days/2026-11-06.html</link>
+<guid isPermaLink="true">https://dadbodwod.org/days/2026-11-06.html</guid>
+<pubDate>Fri, 06 Nov 2026 12:00:00 GMT</pubDate>
+<description>Friday, November 6, 2026: Upper. Week 1, about 85% volume. Home and Gym sessions.</description>
+</item>
+<item>
+<title>Thursday, Nov 5, 2026: Engine</title>
+<link>https://dadbodwod.org/days/2026-11-05.html</link>
+<guid isPermaLink="true">https://dadbodwod.org/days/2026-11-05.html</guid>
+<pubDate>Thu, 05 Nov 2026 12:00:00 GMT</pubDate>
+<description>Thursday, November 5, 2026: Engine. Week 1, about 85% volume. Home and Gym sessions.</description>
+</item>
+<item>
+<title>Wednesday, Nov 4, 2026: Upper</title>
+<link>https://dadbodwod.org/days/2026-11-04.html</link>
+<guid isPermaLink="true">https://dadbodwod.org/days/2026-11-04.html</guid>
+<pubDate>Wed, 04 Nov 2026 12:00:00 GMT</pubDate>
+<description>Wednesday, November 4, 2026: Upper. Week 1, about 85% volume. Home and Gym sessions.</description>
+</item>
+</channel>
+</rss>

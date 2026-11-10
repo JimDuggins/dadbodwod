@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+  <title>Dad Bod WOD</title>
+  <rect width="32" height="32" rx="7" fill="#fafaf7"/>
+  <rect x="3" y="14.25" width="26" height="3.5" rx="1" fill="#c2410c"/>
+  <rect x="5" y="7.5" width="3.6" height="17" rx="1" fill="#c2410c"/>
+  <rect x="9.4" y="10" width="2.5" height="12" rx="0.7" fill="#c2410c"/>
+  <rect x="20.1" y="10" width="2.5" height="12" rx="0.7" fill="#c2410c"/>
+  <rect x="23.4" y="7.5" width="3.6" height="17" rx="1" fill="#c2410c"/>
+</svg>
