@@ -18,7 +18,7 @@ Barbell and plates, hex bar, kettlebells (a light, a medium and a couple of heav
 | Mon | Easy | Play 10 + upper pump 10 + easy aerobic 30 |
 | Tue | Moderate-hard | **Lower** (heavy) |
 | Wed | Moderate | **Upper** (overhead press, row) |
-| Thu | <span class="tag">HARD</span> | Light play + bike 4x4 |
+| Thu | <span class="tag">HARD</span> | Light play + bike 30/30s |
 | Fri | Moderate | **Upper** (dip, pull-up) |
 | Sat | <span class="tag">HARD</span> | Bike sprints + short **Lower** |
 | Sun | Off | |
@@ -49,8 +49,7 @@ Default pick in **bold**. Keep a pick 3–4 weeks; swap only if it stalls or hur
 
 ### Thu: Engine <span class="tag">HARD</span>
 1. **Light play, 5–10 min:** pogos, throws.
-2. **Bike 4 x 4 min at RPE 8–9, 3 min easy between.** Same watts on all four. When all four feel like RPE 8, add about 5% next week.
-3. **Short on time or legs fried:** 2 x (10 x 30 s on / 30 s off).
+2. **Air bike, 2 sets of 10 x (30 s hard / 30 s easy), 3 min easy between sets.** Prep as usual, then an easy spin with a few gradual pickups. Drive hard with the arms. Pick a hard pace you can repeat, not all-out, and keep watts even across reps. If output drops more than about 10% by the end of set 2, do 2 x 8 the next week and build back to 10.
 
 ### Fri: Upper (horizontal push / vertical pull)
 1. **Play, 2 picks, 8 min max:** same list as Wednesday.
@@ -60,7 +59,7 @@ Default pick in **bold**. Keep a pick 3–4 weeks; swap only if it stalls or hur
 5. **Core:** **kettlebell side bend 2 x 10/side, start light**, or landmine rotation. Hanging leg raise either day: tuck the pelvis first, lead with the knees, no swinging.
 
 ### Sat: Bike sprints + short Lower <span class="tag">HARD</span>
-1. **Bike sprints / bike power (this is the fast block):** air bike, or any bike, 10 x 6 s all-out with 54 s easy. Rolling start, seated, smooth acceleration.
+1. **Bike sprints / bike power (this is the fast block):** air bike, 5 x 5–6 s fast but not all-out, seated rolling start, 2–3 min easy between reps. Warm up with an easy spin and 3 gradual pickups. Stop early if a rep is clearly slower than your best. No decel drills.
    - **Optional running block, instead of the bike, never both:** only on a Saturday with daylight and a field, turf, or track, and only with dry, secure footing. If that is not possible, do the bike. No makeup day.
    - **First running exposure:** a graded running warm-up with build-ups around 60%, then about 4 x 40 m relaxed strides around 70%, full walk-back rest. Progress only after well-tolerated sessions.
    - **Stop** when speed drops, form breaks down, or a hamstring feels off.
@@ -83,7 +82,7 @@ Push ~10–12, pull ~10–12 (counting Monday pump), squat/single leg ~10, hinge
 ## Why it looks like this
 - About 10+ hard sets per muscle per week drives size (Schoenfeld 2017; Pelland 2024).
 - Mixing cardio and lifting costs little size or strength (Schumann 2022).
-- 4x4 intervals for VO2max (Helgerud 2007). Short bike sprints for the Saturday fast block (Umeå HIT study, 2023).
+- Short 30/30 bike intervals for the Thursday engine day. Short bike sprints for the Saturday fast block (Umeå HIT study, 2023).
 - Regular near-top-speed sprinting may protect hamstrings (Malone; Edouard).
 - Varied, full-intent jumps and throws for athletic carryover (coach opinion).
 - For back pain, exercise helps and no single type wins (Hayden 2021, Cochrane).
